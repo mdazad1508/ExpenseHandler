@@ -29,7 +29,13 @@ function NewExpenses(props){
 
     return(
         <div className="new-expense"> 
-        {!clicked && <button onClick={onClickHandler}>Add expenses</button>}
+        
+        {!clicked && <button  onClick={onClickHandler}>Add expenses</button>}
+
+        { !clicked &&  <h1> <br></br>TRACK YOUR EXPENSES</h1> }
+        { clicked &&  <h1>ADD YOUR EXPENSES</h1>}
+
+        
         {clicked && <ExpenseForm onSaveData={saveDataHandler}  onCancel ={onCancelHandler}  />}
            
         </div>

@@ -9,3 +9,11 @@
 p{
     color:white;
 }
+
+@media all and (max-width:400px){
+
+    .box{
+        width:100%;
+        margin-left:1%;
+    }
+}

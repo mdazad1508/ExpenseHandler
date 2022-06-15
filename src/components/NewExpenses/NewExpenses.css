@@ -3,7 +3,7 @@
     padding: 1rem;
     margin: 2rem auto;
     width: 70rem;
-    height: 12rem;
+    height: 18rem;
     max-width: 95%;
     border-radius: 12px;
     text-align: center;
@@ -38,4 +38,21 @@
   .new-expense button.alternative:hover,
   .new-expense button.alternative:active {
     background-color: #91d386;
+  }
+
+  .new-btn{
+    background-color:grey;
+    color:red;
+  }
+
+  @media all and (max-width:400px){
+
+    .new-expense{
+      margin-left: 5%;
+      height:27rem;
+    }
+
+    
+   
+
   }
